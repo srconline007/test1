@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,200&display=swap');
+/* Global Setting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: poppins;
+    
+}
+
+h1
+{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3
+{
+    font-size: 1.5rem;
+}
+
+/* main div section */
+
+.logo
+{
+    width: 60px;
+    height:60px;
+}
+.main-text
+{
+  
+    color: rgb(54, 7, 197);
+}
+/* hero section */
+.hero-img
+{
+    width: 600px;
+    height: auto;
+}
+
+.your
+{
+    color: orangered;
+}
+
+.hero-text
+{
+    padding-top: 100px;
+}
+
+/* Button */
+.btn-primary-self
+{
+    width: 120px;
+   
+}
+.btn-dark:hover
+{
+background-color: white;
+color: black;
+}
+
+/* nav bar */
+.nav-item
+{
+    color: black;
+    font-size: 22px;
+}
+
+.nav-link:hover
+{
+    color: orangered !important;
+}
+
+/* Products Section */
+.card-hight
+{
+    min-height: 450px !important;
+}
+.card-pict
+{
+    width: 200px !important;
+    height:200px !important;
+    padding-top: 50px !important;
+    
+
+}
+.card 
+{
+    align-items: center !important;
+    margin-bottom: 10px;
+}
+
+/* Features */
+
+.size-of-container
+{
+    min-height: 400px;
+    color: white;
+   
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgb(3, 109, 128);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+}

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fontawsome Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Own Main Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap Tutorial</title>
+</head>
+
+<body>
+    <!-- Main div start -->
+    <div class="container-fluid main-container p-0 my-0">
+        <!-- nav bar start -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="./images/logo.png" alt="">Orange Company</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav bar end -->
+
+
+        <h1 class="text-center main-text py-5">Join us to fulfill your dreams</h1>
+    </div>
+    <!-- main div end -->
+    <!-- Hero Section start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6  my-0 p-4">
+                <h1 class="hero-text">Boost <span class="my-0 your">your</span> Business</h1>
+                <h2 class="py-4">New business start up</h2>
+                <p class="py-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat commodi aliquid aspernatur
+                    debitis ut quibusdam minima, consectetur unde facere!
+                </p>
+
+                <a href="#" class="btn btn-outline-dark btn-primary-self"> Log in</a>
+
+                <a href="#" class="btn btn-dark btn-primary-self"> Sign in</a>
+
+            </div>
+            <div class="col-md-6">
+                <img src="./images/empowering-education_3446-308.avif" class="p-5 hero-img" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- hero section end -->
+
+    <!-- Carousel Start -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/c1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/c2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/c3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Carousel End -->
+
+    <!-- Products Section Start -->
+    <section id="product">
+        <div class="container">
+            <h2 class="text-center py-5">Products</h2>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            hightcard's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p7.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-hight" style="width: 18rem;">
+                    <img class="card-pict" src="./images/p8.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Product Section End -->
+    <!-- Features Section Start -->
+    <section id="features">
+
+        <div class="container">
+            <h2 class="text-center py-5">Features</h2>
+        </div>
+        <div class="container m-5">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <h3>24 x 7 Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, saepe itaque perspiciatis
+                        assumenda tenetur tempora dolore ea ducimus quibusdam porro aliquam nam odio eveniet nisi animi
+                        praesentium excepturi suscipit ratione voluptates dolor molestias possimus consequatur est.
+                        Minus expedita ratione architecto amet pariatur numquam, nostrum repellendus libero dolorem
+                        ipsam obcaecati quae magni optio laudantium dicta incidunt, alias omnis, quos molestiae ex porro
+                        sint nemo. Iusto placeat, nisi alias exercitationem labore consequatur magnam voluptate ut
+                        molestiae accusamus reiciendis iste quos! Illo tempora ex odit aliquam quidem fugit repellat
+                        quisquam facere pariatur, sit quam consectetur, totam nisi veritatis doloremque cupiditate
+                        explicabo repudiandae minima.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/f1.png" alt="" style="width: 350px; height: auto;">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/f1.png" alt="" style="width: 350px; height: auto;">
+                </div>
+                <div class="col-md-6 ">
+                    <h3>24 x 7 Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, saepe itaque perspiciatis
+                        assumenda tenetur tempora dolore ea ducimus quibusdam porro aliquam nam odio eveniet nisi animi
+                        praesentium excepturi suscipit ratione voluptates dolor molestias possimus consequatur est.
+                        Minus expedita ratione architecto amet pariatur numquam, nostrum repellendus libero dolorem
+                        ipsam obcaecati quae magni optio laudantium dicta incidunt, alias omnis, quos molestiae ex porro
+                        sint nemo. Iusto placeat, nisi alias exercitationem labore consequatur magnam voluptate ut
+                        molestiae accusamus reiciendis iste quos! Illo tempora ex odit aliquam quidem fugit repellat
+                        quisquam facere pariatur, sit quam consectetur, totam nisi veritatis doloremque cupiditate
+                        explicabo repudiandae minima.</p>
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 ">
+                    <h3>24 x 7 Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, saepe itaque perspiciatis
+                        assumenda tenetur tempora dolore ea ducimus quibusdam porro aliquam nam odio eveniet nisi animi
+                        praesentium excepturi suscipit ratione voluptates dolor molestias possimus consequatur est.
+                        Minus expedita ratione architecto amet pariatur numquam, nostrum repellendus libero dolorem
+                        ipsam obcaecati quae magni optio laudantium dicta incidunt, alias omnis, quos molestiae ex porro
+                        sint nemo. Iusto placeat, nisi alias exercitationem labore consequatur magnam voluptate ut
+                        molestiae accusamus reiciendis iste quos! Illo tempora ex odit aliquam quidem fugit repellat
+                        quisquam facere pariatur, sit quam consectetur, totam nisi veritatis doloremque cupiditate
+                        explicabo repudiandae minima.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/f1.png" alt="" style="width: 350px; height: auto;">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="section">
+
+        <div class="container-fluid size-of-container">
+            Let's start a new way of shopping
+        </div>
+
+    </section>
+
+
+    <section id="contact-us">
+        <div class="container">
+            <h2 class="text-center py-5">Contact Us</h2>
+        </div>
+        <div class="container">
+            <form action="">
+                <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" class="form-control" placeholder="Enter your name" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="text" class="form-control" placeholder="Enter your email" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-phone"></i></span>
+                    <input type="text" class="form-control" placeholder="Enter your Phone" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <a href="#" class="btn btn-outline-dark btn-primary-self mt-3"> Submit</a>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Features Section End -->
+
+
+    <!-- footer Section -->
+    <div class="container-fluid bg-dark mt-3">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <h3 class="text-white-50 pt-5">Feature</h3>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+               
+                
+            </div>
+            <div class="col-md-3 text-center">
+                
+                <h3 class="text-white-50 pt-5">Feature</h3>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+               
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white-50 pt-5">Feature</h3>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+               
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white-50 pt-5">Feature</h3>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+                <div class="row">
+                    <a href="#">aaaaaa</a>
+                </div>
+               
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer section -->
+
+
+    <!-- Sub Footer Section Start -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            Developed by : Abc Infotech
+        </div>
+        <div class="col-md-3">
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="col-md-3">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="col-md-3">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+
+    </div>
+</div>
+
+    <!-- Sub Footer Section End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
